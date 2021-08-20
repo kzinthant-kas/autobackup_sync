@@ -1,7 +1,7 @@
 import time
 import subprocess
 
-seconds_to_wait = 360
+seconds_to_wait = 3600
 
 while(True):
   subprocess.call(['sh', './sync.sh'])
